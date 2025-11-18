@@ -1,63 +1,57 @@
-MMID Bot – Privacy Policy
+# MMID Bot — Privacy Policy
+_Last updated: 18 November 2025_
 
-Last updated: 18 November 2025
+---
 
-1. Overview
+## 1. Overview
+This Privacy Policy explains how the MMID Bot (“the Bot”) processes information.  
+Short version: **the Bot does not store any personal data.**
 
-This Privacy Policy explains how the MMID Bot (“the Bot”) handles user information.
-Short answer: it doesn’t store anything.
+---
 
-2. Information Collected
+## 2. Data Collected
+The Bot does **not** collect or store:
+- Discord usernames  
+- Discord IDs  
+- Message content  
+- Interaction logs  
+- IP addresses  
+- Search history  
 
-The Bot does not collect, store, or log:
+The only user input received is:
+- A Minecraft username (via the `/mmid` command)
 
-Discord usernames
+This value is processed temporarily and never saved.
 
-Discord IDs
+---
 
-Message content
+## 3. Data Sharing
+The Bot does **not** share any information with third parties.  
+It simply fetches publicly available MMID information maintained by **Oasis**.
 
-Interaction logs
+---
 
-IP addresses
+## 4. Hosting
+The Bot is hosted privately on a physical device.  
+No external logging services or analytics tools are used.
 
-MMID search history
+---
 
-All processing happens in memory and is never saved.
+## 5. Third-Party APIs
+Brief requests may be made to:
+- The Oasis MMID Google Sheet  
+- Crafatar (for skin rendering)  
 
-3. Data Provided by Users
+No personal data is transmitted to or stored by these services.
 
-Users may provide:
+---
 
-a Minecraft username (via the /mmid command)
+## 6. Security
+Because the Bot stores no user data, there is no personal information at risk.  
+Standard security measures (SSH hardening, firewalls, private hosting) are maintained.
 
-This value is used only to fetch MMID data and is not stored.
+---
 
-4. Data Sharing
+## 7. Contact
+If you have questions about this policy, contact the bot owner via Discord.
 
-The Bot does not share data with any third parties.
-It simply retrieves existing information from the MMID sheet maintained by Oasis.
-
-5. Hosting
-
-The Bot is hosted privately on a Raspberry Pi device.
-No external logging systems are used.
-
-6. Third-Party APIs
-
-The Bot may call these services temporarily:
-
-Oasis MMID Google Sheet
-
-Crafatar (for Minecraft skin rendering)
-
-No personal data is sent to other services.
-
-7. Security
-
-Since the Bot stores no user data, there is no personal data at risk.
-Standard security measures (SSH, firewall, private hosting) are maintained on the device.
-
-8. Contact
-
-If you have questions, contact the bot owner through Discord.
