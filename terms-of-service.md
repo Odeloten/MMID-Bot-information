@@ -31,7 +31,7 @@ All processing happens temporarily in memory and is immediately discarded.
 ---
 
 ## 4. Availability
-The Bot is privately hosted on a Raspberry Pi.  
+The Bot is privately hosted on a physical device.  
 Uptime is not guaranteed, and interruptions may occur without notice.
 
 ---
